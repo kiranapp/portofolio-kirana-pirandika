@@ -1,0 +1,2248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kirana Pirandika Ayuputri — Geospatial Engineer</title>
+<meta name="description" content="Geospatial Engineer & GIS Analyst specializing in Remote Sensing, 3D Digital Twin, and AI-based spatial analysis.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        accent: '#26a4c4',
+        'accent-dark': '#1a7f9a',
+        background: '#ffffff',
+      },
+      fontFamily: {
+        sans: ['Inter','ui-sans-serif','system-ui','sans-serif'],
+        mono: ['JetBrains Mono','ui-monospace','monospace'],
+      }
+    }
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  .grid-pattern {
+    background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.06) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+  @keyframes ping { 75%,100% { transform: scale(2); opacity: 0; } }
+  .animate-ping { animation: ping 1s cubic-bezier(0,0,0.2,1) infinite; }
+</style>
+</head>
+<body class="min-h-screen bg-white text-slate-900 grid-pattern">
+
+<!-- ============ NAV ============ -->
+<nav class="sticky top-0 z-50 border-b border-slate-100 bg-white/85 backdrop-blur-md">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+    <a href="#home" class="font-mono text-lg font-bold tracking-tighter">Kirana Pirandika Ayuputri</a>
+    <div class="hidden items-center gap-1 lg:flex"><a href="#home" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Home</a>
+<a href="#about" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">About</a>
+<a href="#skills" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Skills</a>
+<a href="#experience" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Experience</a>
+<a href="#projects" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Projects</a>
+<a href="#research" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Research</a>
+<a href="#achievements" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Achievements</a>
+<a href="#contact" class="rounded-full px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-accent-dark transition-colors">Contact</a></div>
+    <div class="flex items-center gap-2">
+      <a href="Kirana-Pirandika-Ayuputri-CV.pdf" download class="hidden rounded-full bg-accent px-4 py-1.5 text-xs font-bold text-slate-950 hover:bg-slate-900 hover:text-white sm:inline-flex">Download CV</a>
+      <button id="menuBtn" class="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium lg:hidden">Menu</button>
+    </div>
+  </div>
+  <div id="mobileNav" class="hidden border-t border-slate-100 bg-white lg:hidden">
+    <div class="mx-auto grid max-w-7xl grid-cols-2 gap-1 px-6 py-3"><a href="#home" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Home</a>
+<a href="#about" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">About</a>
+<a href="#skills" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Skills</a>
+<a href="#experience" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Experience</a>
+<a href="#projects" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Projects</a>
+<a href="#research" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Research</a>
+<a href="#achievements" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Achievements</a>
+<a href="#contact" class="rounded px-3 py-2 text-sm text-slate-600 hover:bg-slate-50">Contact</a></div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header id="home" class="relative overflow-hidden pt-20 pb-32">
+  <div class="mx-auto max-w-7xl px-6">
+    <div class="max-w-3xl">
+
+      <!-- TODO: Replace src below with your own profile photo (e.g. images/profile.jpg) -->
+      <img src="images/profile.png" alt="Profile photo of Kirana Pirandika Ayuputri" class="mb-8 h-32 w-32 rounded-full border-4 border-accent/30 object-cover shadow-lg" onerror="this.style.display='none'">
+
+      <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 font-mono text-xs text-accent-dark">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-accent"></span>
+        </span>
+        AVAILABLE FOR OPPORTUNITIES
+      </div>
+      <h1 class="mb-4 text-5xl font-extrabold tracking-tight text-slate-950 sm:text-6xl">Kirana Pirandika Ayuputri</h1>
+      <p class="mb-6 font-mono text-sm tracking-wider text-accent-dark uppercase">Survey Engineer · GIS & Remote Sensing Analyst · 3D Modeling Engineer</p>
+      <p class="mb-10 text-lg leading-relaxed text-slate-600 sm:text-xl">
+        Fresh Graduate Geodetic Engineer with experience in Survey and Mapping, GIS, Remote Sensing, 3D Modeling, WebGIS Development, and AI-based Spatial Analysis.
+      </p>
+      <div class="mb-12 flex flex-wrap gap-3">
+        <a href="Kirana-Pirandika-Ayuputri-CV.pdf" download class="rounded-2xl bg-slate-950 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-slate-200 hover:bg-accent hover:text-slate-950">Download CV</a>
+        <a href="https://www.linkedin.com/in/kirana-pirandika-ayuputri-151841216/" target="_blank" rel="noreferrer" class="rounded-2xl border border-slate-200 px-6 py-3 text-sm font-bold text-slate-900 hover:border-slate-400">LinkedIn</a>
+        <a href="https://github.com/kiranapp" target="_blank" rel="noreferrer" class="rounded-2xl border border-slate-200 px-6 py-3 text-sm font-bold text-slate-900 hover:border-slate-400">GitHub</a>
+      </div>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-5"><div class="rounded-xl border border-slate-100 bg-white p-4 shadow-sm">
+      <div class="mb-1 font-mono text-[10px] text-slate-400">GPA</div>
+      <div class="font-mono text-base font-bold text-slate-900">3.85 / 4.0</div>
+    </div><div class="rounded-xl border border-slate-100 bg-white p-4 shadow-sm">
+      <div class="mb-1 font-mono text-[10px] text-slate-400">TEACHING</div>
+      <div class="font-mono text-base font-bold text-accent-dark">8+ Assist.</div>
+    </div><div class="rounded-xl border border-slate-100 bg-white p-4 shadow-sm">
+      <div class="mb-1 font-mono text-[10px] text-slate-400">PROJECTS</div>
+      <div class="font-mono text-base font-bold text-slate-900">10+ Geo</div>
+    </div><div class="rounded-xl border border-slate-100 bg-white p-4 shadow-sm">
+      <div class="mb-1 font-mono text-[10px] text-slate-400">DIGITAL TWIN</div>
+      <div class="font-mono text-base font-bold text-slate-900">2+ Built</div>
+    </div><div class="rounded-xl border border-slate-100 bg-white p-4 shadow-sm">
+      <div class="mb-1 font-mono text-[10px] text-slate-400">AWARD</div>
+      <div class="font-mono text-base font-bold text-slate-900">LKTIN &#x27;24</div>
+    </div></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="border-t border-slate-100 bg-white py-24">
+  <div class="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-12">
+    <div class="lg:col-span-5">
+      <h2 class="mb-4 font-mono text-sm tracking-widest text-accent-dark uppercase">01 / About</h2>
+      <h3 class="text-3xl font-extrabold tracking-tight text-slate-950">Geodetic Engineer from Universitas Gadjah Mada.</h3>
+    </div>
+    <div class="space-y-6 lg:col-span-7">
+      <p class="leading-relaxed text-slate-600">I work across survey and mapping, GIS, remote sensing, geospatial data processing, 3D modeling for digital twin development, WebGIS development, and AI-driven spatial analysis. Throughout my academic and professional experiences, I have been involved in transforming aerial imagery, spatial datasets, and field-collected information into actionable geospatial products that support environmental monitoring, infrastructure management, and spatial decision-making.</p>
+      <p class="leading-relaxed text-slate-600">My experience includes generating orthophotos and digital elevation models from aerial imagery, performing GIS-based spatial analysis, developing interactive WebGIS platforms, and creating detailed 3D models for digital twin applications. I have also worked with machine learning and AI-based approaches for spatial data analysis, particularly in environmental monitoring and geospatial research.</p>
+	  <p class="leading-relaxed text-slate-600">Currently, I am expanding my expertise through industry projects at Geo-AI Twinverse and applied research in geospatial technologies. I am passionate about integrating geospatial data, advanced analytics, and emerging technologies to develop innovative solutions for sustainable environmental management, infrastructure development, and digital transformation initiatives.</p>
+      <div>
+        <h4 class="mb-3 font-mono text-xs tracking-widest text-slate-400 uppercase">Career Interests</h4>
+        <div class="grid grid-cols-2 gap-2 sm:grid-cols-3"><div class="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50/60 px-3 py-2 text-sm font-medium text-slate-700"><span class="font-mono text-accent">✓</span>Survey Engineer</div><div class="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50/60 px-3 py-2 text-sm font-medium text-slate-700"><span class="font-mono text-accent">✓</span>GIS Analyst</div><div class="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50/60 px-3 py-2 text-sm font-medium text-slate-700"><span class="font-mono text-accent">✓</span>Remote Sensing Analyst</div><div class="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50/60 px-3 py-2 text-sm font-medium text-slate-700"><span class="font-mono text-accent">✓</span>3D Modeling Engineer</div><div class="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50/60 px-3 py-2 text-sm font-medium text-slate-700"><span class="font-mono text-accent">✓</span>Data Analyst</div><div class="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50/60 px-3 py-2 text-sm font-medium text-slate-700"><span class="font-mono text-accent">✓</span>Business Intelligence Analyst</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="border-t border-slate-100 py-24">
+  <div class="mx-auto max-w-7xl px-6">
+
+    <h2 class="mb-4 font-mono text-sm tracking-widest text-accent-dark uppercase">
+      02 / What I Do
+    </h2>
+
+    <h3 class="mb-12 text-4xl font-extrabold tracking-tight text-slate-950">
+      Core Expertise & Tools
+    </h3>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Geospatial Engineering -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 transition-all hover:border-accent/40 hover:shadow-md">
+
+        <h5 class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          Geospatial Engineering & Surveying
+        </h5>
+
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">GIS Analysis</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Spatial Data Processing</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Survey & Mapping</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Spatial Visualization</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Geospatial Data Management</span>
+        </div>
+
+        <p class="mb-2 font-mono text-xs tracking-widest text-slate-400 uppercase">
+          Tools
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">QGIS</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">ArcGIS</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Global Mapper</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">GNSS</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Total Station</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Waterpass</span>
+        </div>
+
+      </div>
+
+      <!-- Remote Sensing -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 transition-all hover:border-accent/40 hover:shadow-md">
+
+        <h5 class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          Remote Sensing, Photogrammetry & AI
+        </h5>
+
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Image Preprocessing</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Land Cover Classification</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Change Detection</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Photogrammetry</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Machine Learning</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Deep Learning</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">DEM & Orthophoto Processing</span>
+        </div>
+
+        <p class="mb-2 font-mono text-xs tracking-widest text-slate-400 uppercase">
+          Tools
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Google Earth Engine</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">ENVI</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">SNAP</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">eCognition</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Python</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Google Colab</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Agisoft Metashape</span>
+        </div>
+
+      </div>
+
+      <!-- WebGIS -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 transition-all hover:border-accent/40 hover:shadow-md">
+
+        <h5 class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          WebGIS & Software Development
+        </h5>
+
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">WebGIS Development</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Web Mapping</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Frontend Development</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Spatial Application Development</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Automation & Data Processing</span>
+        </div>
+
+        <p class="mb-2 font-mono text-xs tracking-widest text-slate-400 uppercase">
+          Tools
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Python</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">JavaScript</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">HTML</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">CSS</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Leaflet</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">GitHub</span>
+        </div>
+
+      </div>
+
+      <!-- Digital Twin -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 transition-all hover:border-accent/40 hover:shadow-md">
+
+        <h5 class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          3D Modeling & Digital Twin
+        </h5>
+
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">BIM Modeling</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Infrastructure Modeling</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Digital Twin Development</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Point Cloud Processing</span>
+        </div>
+
+        <p class="mb-2 font-mono text-xs tracking-widest text-slate-400 uppercase">
+          Tools
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Revit</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Civil 3D</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">SketchUp</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Blender</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">AutoCAD</span>
+        </div>
+
+      </div>
+
+      <!-- Productivity -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 transition-all hover:border-accent/40 hover:shadow-md">
+
+        <h5 class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          Design, Productivity & Collaboration
+        </h5>
+
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">UI/UX Design</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Graphic Design</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Documentation</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Technical Reporting</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Presentation Design</span>
+          <span class="rounded-lg bg-slate-50 px-3 py-1.5 text-sm">Team Collaboration</span>
+        </div>
+
+        <p class="mb-2 font-mono text-xs tracking-widest text-slate-400 uppercase">
+          Tools
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Microsoft Office</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Google Workspace</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Canva</span>
+          <span class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm">Figma</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- PROFESSIONAL SKILLS -->
+    <div class="mt-8 rounded-2xl border border-slate-100 bg-white p-6">
+
+      <h5 class="mb-4 font-mono text-xs tracking-widest text-accent-dark uppercase">
+        Professional Skills
+      </h5>
+
+      <div class="flex flex-wrap gap-2">
+
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Critical Thinking</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Problem Solving</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Communication</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Teamwork</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Adaptability</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Fast Learner</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Detail Oriented</span>
+        <span class="rounded-full bg-slate-100 px-3 py-1 text-sm">Responsibility</span>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="bg-slate-950 py-24 text-slate-50">
+  <div class="mx-auto max-w-5xl px-6">
+
+    <h2 class="mb-4 font-mono text-sm tracking-widest text-accent uppercase">
+      03 / Professional Experience
+    </h2>
+    <h3 class="mb-16 text-4xl font-extrabold tracking-tight">
+      Career Timeline
+    </h3>
+
+    <div class="space-y-10">
+
+      <!-- ================== BPDP RESEARCH ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-accent"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">3D Research Engineer</h4>
+            <div class="text-sm text-slate-400">Geo-AI Twinverse · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Mar 2025 — Present</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Developed and prepared a research proposal for BPDP on coconut plantation monitoring based on Artificial Intelligence (AI) and geospatial data analysis.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Conducted training sessions on 3D modeling of roads and buildings using Autodesk Revit to support digital construction and spatial modeling workflows.</li>
+        </ul>
+      </article>
+
+      <!-- ================== ROAD DIVISION LEAD ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">3D Road and Infrastructure Division Lead</h4>
+            <div class="text-sm text-slate-400">Geo-AI Twinverse · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Mar 2026 — Jun 2026</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Coordinated and managed the 3D road ledger modeling team for the Yogyakarta City Digital Twin project, ensuring targets, standards, and deadlines were achieved.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Designed and implemented 3D modeling workflows using Autodesk Revit and performed evaluation and Quality Control (QC) to ensure accuracy and compliance with field conditions.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Identified and resolved technical issues while facilitating cross-division coordination for spatial data integration and workflow optimization.</li>
+        </ul>
+      </article>
+
+      <!-- ================== 3D MODELING ENGINEER ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">3D Modeling Engineer</h4>
+            <div class="text-sm text-slate-400">Geo-AI Twinverse · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Jan 2026 — Mar 2026</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Developed LoD 3 building models for the FT UGM Digital Twin project using Autodesk Revit in accordance with project standards.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Ensured quality compliance of 3D models by performing self-checks and validating outputs against project guidelines and specifications.</li>
+        </ul>
+      </article>
+
+      <!-- ================== GIS & 3D ENGINEER ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">GIS & 3D Modeling Engineer</h4>
+            <div class="text-sm text-slate-400">Geo-AI Twinverse · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Mar 2025 — Dec 2025</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Completed 3D modeling of roads, bridges, and water bodies for the Jakarta Special Capital Region Digital Twin project using Autodesk Revit, consistently meeting monthly targets.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Performed Quality Control (QC) on 3D building models created in SketchUp to ensure accuracy and compliance with project standards.</li>
+        </ul>
+      </article>
+
+      <!-- ================== INTERNSHIP ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">Engineer Intern · Infrastructure III Division</h4>
+            <div class="text-sm text-slate-400">PT Waskita Karya (Persero) Tbk · East Jakarta, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Jan 2025 — Feb 2025</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Processed and transformed aerial imagery into orthophotos and DEMs using Agisoft Metashape to support infrastructure projects in Timor-Leste.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Developed WebGIS and project monitoring dashboards using QGIS and GitHub for spatial visualization and progress tracking.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Performed georeferencing and spatial adjustment of road design (DED) data using AutoCAD.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Prepared and presented preliminary survey materials for technical stakeholder communication.</li>
+        </ul>
+      </article>
+
+      <!-- ================== DATA ANALYST ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">Data Analyst · Geodetic Engineering Project</h4>
+            <div class="text-sm text-slate-400">UGM Geodetic Engineering Department · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Aug 2024 — Dec 2024</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Performed land cover classification from aerial imagery using Deep Learning and Object-Based Image Analysis (OBIA), including accuracy assessment and validation.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Analyzed land cover changes and compared classification methods to evaluate performance between Deep Learning and OBIA approaches.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Developed project proposal and final technical report documenting methodology, results, and analysis.</li>
+        </ul>
+      </article>
+
+      <!-- ================== 3D SURVEY ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">3D Surveyor Assistant · Pix2LandVR</h4>
+            <div class="text-sm text-slate-400">UGM Geodetic Engineering Department · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Apr 2024 — Jun 2024</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Performed SLAM-based data acquisition to support 3D spatial modeling and virtual environment development for the Pix2LandVR project.</li>
+        </ul>
+      </article>
+
+      <!-- ================== FIELD WORK ================== -->
+      <article class="relative border-l border-slate-800 pl-8">
+        <div class="absolute top-1 -left-[5px] h-2.5 w-2.5 rounded-full bg-slate-700"></div>
+
+        <div class="mb-3 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <div>
+            <h4 class="text-xl font-bold">Field Work Team Leader (Kemah Kerja)</h4>
+            <div class="text-sm text-slate-400">UGM Geodetic Engineering Department · Sleman, Indonesia</div>
+          </div>
+          <span class="font-mono text-sm text-accent">Dec 2023 — Feb 2024</span>
+        </div>
+
+        <ul class="mb-4 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Coordinated field survey activities including preliminary surveys, topographic measurements using Total Station and Waterpass, and map production.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Managed task distribution and workflow execution to ensure timely completion of all fieldwork stages.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Performed Quality Control (QC) and problem solving during surveying and mapping processes.</li>
+          <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent"></span>Prepared and presented group survey results as final deliverables to academic supervisors.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="py-24">
+  <div class="mx-auto max-w-7xl px-6">
+
+    <div class="mb-16 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h2 class="mb-4 font-mono text-sm tracking-widest text-accent-dark uppercase">
+          04 / Featured Projects
+        </h2>
+        <h3 class="text-4xl font-extrabold tracking-tight text-slate-950">
+          Selected Work
+        </h3>
+      </div>
+    </div>
+
+    <div class="space-y-10">
+
+      <!-- ========== PROJECT 01 ========== -->
+<article class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+  <!-- ========== LEFT: 2 CARDS ========== -->
+  <div class="lg:col-span-5 lg:order-2 space-y-4">
+
+    <!-- ================= CARD 1: 3D VIEWER (ONLY AOI 1) ================= -->
+    <div class="overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-b from-slate-50 to-slate-100">
+
+      <!-- HEADER -->
+      <div class="flex items-center justify-between border-b border-slate-200 px-4 py-3">
+
+        <div class="flex items-center gap-2">
+          <span class="rounded-full bg-emerald-100 px-2 py-1 text-[10px] font-medium text-emerald-700">
+            INTERACTIVE
+          </span>
+        </div>
+
+        <span class="text-xs text-slate-500">
+          Drag • Zoom • Rotate
+        </span>
+
+      </div>
+
+      <!-- 3D VIEWER (ONLY AOI 1) -->
+      <model-viewer
+  id="viewer-project1"
+  src="models/jgj.glb"
+  camera-controls
+  min-camera-orbit="auto auto 1m"
+  field-of-view="20deg"
+  exposure="0.7"
+  shadow-intensity="2.5"
+  environment-image="neutral"
+  interaction-prompt="none"
+  style="width:100%; height:400px; background:linear-gradient(180deg,#0f172a,#1e293b);"
+>
+</model-viewer>
+
+      <!-- FOOTER -->
+      <div class="border-t border-slate-200 p-4 flex items-center justify-between">
+
+        <button
+          onclick="document.getElementById('viewer-project1').requestFullscreen()"
+          class="rounded-xl border border-slate-300 px-4 py-2 text-sm font-medium hover:bg-slate-100">
+          Fullscreen
+        </button>
+
+        <div class="text-right">
+          <div class="text-[10px] uppercase text-slate-400">Model</div>
+          <div class="text-sm font-medium text-slate-700">
+            Road Inventory Mapping (Taman Siswa St.) for the Yogyakarta City Digital Twin.  
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ================= CARD 2: SLIDER GALLERY ================= -->
+    <div class="overflow-hidden rounded-xl border border-slate-200 bg-white">
+
+      <div class="carousel">
+        <div class="track flex transition-transform duration-500">
+
+          <img src="images/jgj1.jpeg"
+               class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+          <img src="images/jgj2.jpeg"
+               class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+          <img src="images/jgj3.jpeg"
+               class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+        </div>
+      </div>
+
+      <div class="p-4">
+        <h5 class="font-semibold">3D Road Division</h5>
+        <p class="mt-1 text-xs text-slate-500">
+          3D Road Asset Modeling and Quality Control (QC) including curbs, sidewalks, road markings, pedestrian crosswalks, traffic signs, streetlights, utility poles, and road separators.   
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ========== RIGHT CONTENT ========== -->
+<div class="p-6 lg:col-span-7">
+
+  <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+    <span>PROJECT / 01</span>
+    <span class="text-accent-dark">
+      · ROLE · Lead 3D Road Asset Modeler
+    </span>
+  </div>
+
+  <h4 class="mb-3 text-2xl font-bold text-slate-950">
+    Digital Twin Yogyakarta City
+  </h4>
+
+  <p class="mb-6 text-sm text-slate-600">
+    Designed workflow, managed team, developed and performed quality control of 3D road assets. Also identified dan resolved technical issues.
+  </p>
+
+  <!-- WORKFLOW -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+      Workflow / Scope
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">LiDAR Filtering</span>
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Road & Asset Modeling</span>
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">QC and Road Network Integration</span>
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">OBJ Format Export</span>
+    </div>
+  </div>
+
+  <!-- TOOLS -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+      Tools
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">QGIS</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Global Mapper</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Civil 3D</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Revit</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Blender</span>
+    </div>
+  </div>
+
+  <!-- OUTPUTS -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+      Outputs
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">
+        3D Road and Asset Model Yogyakarta City (OBJ)
+      </span>
+    </div>
+  </div>
+
+</div>
+
+</article>
+	  
+<!-- ========== PROJECT 02 ========== -->
+<article
+  class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+  <!-- 3D VIEWER -->
+  <div class="lg:col-span-5 lg:order-2">
+
+    <div
+      class="overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-b from-slate-50 to-slate-100">
+
+      <!-- HEADER -->
+      <div class="flex items-center justify-between border-b border-slate-200 px-4 py-3">
+
+        <div class="flex items-center gap-2">
+
+          <span
+            class="rounded-full bg-emerald-100 px-2 py-1 text-[10px] font-medium text-emerald-700">
+            INTERACTIVE
+          </span>
+
+
+        </div>
+
+        <span class="text-xs text-slate-500">
+          Drag • Zoom • Rotate
+        </span>
+
+      </div>
+
+      <!-- MODEL SWITCHER -->
+<div class="flex gap-2 border-b border-slate-200 p-3">
+
+  <button
+  onclick="changeModel(
+    'models/aoi1.glb',
+    'AOI 1',
+    'Geodetic, Architecture, and Chemical Eng. Departments, FT UGM'
+  )"
+  class="rounded-lg border border-slate-300 px-3 py-1 text-xs font-medium hover:bg-slate-100">
+  Model 1
+</button>
+
+<button
+  onclick="changeModel(
+    'models/aoi3.glb',
+    'AOI 3',
+    'Mechanical Engineering Department, SV UGM'
+  )"
+  class="rounded-lg border border-slate-300 px-3 py-1 text-xs font-medium hover:bg-slate-100">
+  Model 2
+</button>
+
+</div>
+
+<!-- VIEWER -->
+<model-viewer
+  id="viewer-main"
+  src="models/aoi1.glb"
+  camera-controls
+  field-of-view="20deg"
+  exposure="0.7"
+  shadow-intensity="2.5"
+  environment-image="neutral"
+  interaction-prompt="none"
+  style="width:100%; height:400px; background:linear-gradient(180deg,#0f172a,#1e293b);">
+
+</model-viewer>
+
+<!-- FOOTER -->
+<div class="border-t border-slate-200 p-4">
+
+  <div class="flex items-center justify-between">
+
+    <button
+  onclick="document.getElementById('viewer-main').requestFullscreen()"
+  class="rounded-xl border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100">
+  Fullscreen
+</button>
+
+    <div class="text-right">
+      <div class="text-[10px] uppercase tracking-wider text-slate-400">
+        Model Information
+      </div>
+
+      <div
+        id="model-info"
+        class="text-sm font-medium text-slate-700">
+        Geodetic, Architecture, and Chemical Eng. Departments, FT UGM
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+  <!-- ========== RIGHT CONTENT ========== -->
+<div class="p-6 lg:col-span-7">
+
+  <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+    <span>PROJECT / 02</span>
+    <span class="text-accent-dark">
+      · ROLE · 3D Modeling Engineer
+    </span>
+  </div>
+
+  <h4 class="mb-3 text-2xl font-bold text-slate-950">
+    Digital Twin Fakultas Teknik UGM
+  </h4>
+
+  <p class="mb-6 text-sm text-slate-600">
+    Developed a Level of Detail 3 (LoD3) building model.
+  </p>
+
+  <!-- WORKFLOW -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+      Workflow / Scope
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded-lg bg-slate-100 px-3 py-1 text-xs">LiDAR Filtering</span>
+      <span class="rounded-lg bg-slate-100 px-3 py-1 text-xs">LoD3 Building Modeling</span>
+    </div>
+  </div>
+
+  <!-- TOOLS -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+      Tools
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Global Mapper</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Revit</span>
+    </div>
+  </div>
+
+  <!-- OUTPUTS -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+      Outputs
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">
+        LoD3 Building Model
+      </span>
+    </div>
+  </div>
+
+</div>
+
+</article>
+
+<script>
+
+// OPTIONAL:
+// Pause render saat viewer tidak terlihat
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const viewer =
+    document.getElementById("viewer-main");
+
+  const observer =
+    new IntersectionObserver((entries) => {
+
+      entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+
+          viewer.play();
+
+        } else {
+
+          viewer.pause();
+
+        }
+
+      });
+
+    }, {
+      threshold: 0.2
+    });
+
+  observer.observe(viewer);
+
+});
+
+</script>
+
+
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	  
+	  <!-- ========== PROJECT 03 ========== -->
+<article class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+  <!-- ========== LEFT: 2 CARDS ========== -->
+  <div class="lg:col-span-5 lg:order-2 space-y-4">
+    <!-- ================= CARD 1: 3D VIEWER (ONLY AOI 1) ================= -->
+    <div class="overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-b from-slate-50 to-slate-100">
+
+      <!-- HEADER -->
+      <div class="flex items-center justify-between border-b border-slate-200 px-4 py-3">
+
+        <div class="flex items-center gap-2">
+          <span class="rounded-full bg-emerald-100 px-2 py-1 text-[10px] font-medium text-emerald-700">
+            INTERACTIVE
+          </span>
+        </div>
+
+        <span class="text-xs text-slate-500">
+          Drag • Zoom • Rotate
+        </span>
+
+      </div>
+
+      <!-- 3D VIEWER (ONLY AOI 1) -->
+      <model-viewer
+  id="viewer-project3"
+  src="models/jkt.glb"
+  camera-controls
+  min-camera-orbit="auto auto 1m"
+  field-of-view="20deg"
+  exposure="0.7"
+  shadow-intensity="2.5"
+  environment-image="neutral"
+  interaction-prompt="none"
+  style="width:100%; height:400px; background:linear-gradient(180deg,#0f172a,#1e293b);"
+>
+</model-viewer>
+
+      <!-- FOOTER -->
+      <div class="border-t border-slate-200 p-4 flex items-center justify-between">
+
+        <button
+          onclick="document.getElementById('viewer-project3').requestFullscreen()"
+          class="rounded-xl border border-slate-300 px-4 py-2 text-sm font-medium hover:bg-slate-100">
+          Fullscreen
+        </button>
+
+        <div class="text-right">
+          <div class="text-[10px] uppercase text-slate-400">Model</div>
+          <div class="text-sm font-medium text-slate-700">
+            Area Pantai Indah Kapuk (PIK), DK Jakarta
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+<script>
+const viewer3 = document.getElementById("viewer-project3");
+
+// awalnya pause total
+viewer3.pause();
+
+// pakai IntersectionObserver
+const observer3 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+
+      // aktifkan rendering
+      viewer3.play();
+
+      // optional auto rotate (kalau mau)
+      viewer3.autoRotate = false;
+
+    } else {
+
+      // MATI TOTAL saat tidak terlihat
+      viewer3.pause();
+
+    }
+  });
+}, {
+  threshold: 0.25
+});
+
+observer3.observe(viewer3);
+</script>
+
+      
+    <!-- ================= CARD 2: GALLERY ================= -->
+    <div class="overflow-hidden rounded-xl border border-slate-200 bg-white">
+
+      <div class="carousel">
+        <div class="track flex transition-transform duration-500">
+
+          <img src="images/skp1.png"
+               class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+          <img src="images/skp2.png"
+               class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+          <img src="images/skp3.png"
+               class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+        </div>
+      </div>
+
+      <div class="p-4">
+        <h5 class="font-semibold">Building Refinement</h5>
+        <p class="mt-1 text-xs text-slate-500">
+          LoD2 Building refinement using SketchUp
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ========== RIGHT CONTENT ========== -->
+<div class="p-6 lg:col-span-7">
+
+  <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+    <span>PROJECT / 03</span>
+    <span class="text-accent-dark">
+      · ROLE · GIS & 3D Modeling Engineer
+    </span>
+  </div>
+
+  <h4 class="mb-3 text-2xl font-bold text-slate-950">
+    Digital Twin DKI Jakarta
+  </h4>
+
+  <p class="mb-6 text-sm text-slate-600">
+    Road network and water bodies modeling, building refinement. 
+  </p>
+
+  <!-- WORKFLOW -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+      Workflow / Scope
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">LiDAR Filtering</span>
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Road & Water Bodies Modeling</span>
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">OBJ Format Export</span>
+      <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Building Refinement</span>
+    </div>
+  </div>
+
+  <!-- TOOLS -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+      Tools
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">QGIS</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Global Mapper</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Civil 3D</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Revit</span>
+      <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">SketchUp</span>
+    </div>
+  </div>
+
+  <!-- OUTPUTS -->
+  <div class="mb-5">
+    <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+      Outputs
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">
+        Road Network and Water Bodies Model
+      </span>
+      <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">
+        LoD2 Building Model
+      </span>
+    </div>
+  </div>
+
+</div>
+
+</article>
+
+<script>
+function changeModel3(path, name) {
+  const viewer = document.getElementById("viewer-project3");
+  viewer.src = path;
+
+  document.getElementById("model-info-3").textContent =
+    name + " • Digital Twin Model";
+}
+</script>
+
+<!-- ========== PROJECT 04 ========== -->
+      <article class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+        <!-- SLIDER -->
+        <div class="lg:col-span-5 lg:order-2">
+          <div class="carousel overflow-hidden rounded-xl bg-slate-100">
+            <div class="track flex transition-transform duration-700 ease-in-out">
+              <img src="images/skripsi1.png" class="min-w-full h-full object-cover">
+              <img src="images/skripsi2.png" class="min-w-full h-full object-cover">
+              <img src="images/skripsi3.png" class="min-w-full h-full object-cover">
+              <img src="images/skripsi4.png" class="min-w-full h-full object-cover">
+			  <img src="images/skripsi5.png" class="min-w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6 lg:col-span-7">
+
+          <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+            <span>PROJECT / 04</span>
+            <span class="text-accent-dark">· ROLE · Data Analyst</span>
+          </div>
+
+          <h4 class="mb-3 text-2xl font-bold text-slate-950">
+            Thesis - Land Suitability Analysis with RTRW in Kediri Regency after Airport Development
+          </h4>
+
+          <p class="mb-6 text-sm text-slate-600">
+            Multi-class land cover mapping using random forest with accuracy assessment and validation.
+			Suitability analysis with RTRW.
+          </p>
+
+          <div class="mb-5">
+            <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+              Workflow / Scope
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Data Preparation</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Image Preprocessing</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Collect Dataset Training</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Image Classification (Random Forest)</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Validation & Accuracy Assessment</span>
+			  <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Land Suitability Analysis with RTRW</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">Tools</div>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Google Earth Engine</span>   
+		        <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">QGIS</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+                Outputs
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">Land Cover Map</span>
+                <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">Land Suitability Map</span>
+                <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">Final Project Report</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+      
+	  <!-- ========== PROJECT 05 ========== -->
+      <article class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+        <!-- PROJECT SHOWCASE -->
+<div class="lg:col-span-5 lg:order-2">
+
+  <div class="space-y-4">
+
+    <!-- CARD 1 -->
+    <a
+      href="https://kiranapp.github.io/MonitoringTender2025/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="group block overflow-hidden rounded-xl border border-slate-200 bg-white transition hover:-translate-y-1 hover:shadow-xl">
+
+      <img
+        src="images/kp.png"
+        class="h-44 w-full object-cover transition duration-500 group-hover:scale-105">
+
+      <div class="p-4">
+
+        <h5 class="font-semibold text-slate-900">
+          WebGIS and Dashboard Tender Monitoring
+        </h5>
+
+        <p class="mt-1 text-xs text-slate-500">
+          WebGIS and Iiteractive dashboard for monitoring tender projects.
+        </p>
+
+        <span class="mt-3 inline-flex items-center text-sm font-medium text-accent-dark">
+          Open Web →
+        </span>
+
+      </div>
+
+    </a>
+
+    <!-- CARD 2 -->
+<div class="overflow-hidden rounded-xl border border-slate-200 bg-white">
+
+  <div class="carousel relative">
+
+    <div class="track flex transition-transform duration-500">
+
+      <img src="images/kp1.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp5.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp8.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp9.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp10.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp11.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp12.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp13.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp14.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+<img src="images/kp15.png"
+     class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+		   
+
+    </div>
+
+    
+  </div>
+
+  <div class="p-4">
+
+    <h5 class="font-semibold">
+      Orthophoto & DEM Processing
+    </h5>
+
+    <p class="mt-1 text-xs text-slate-500">
+  UAV photogrammetry processing, including accuracy assessment and comparison of Agisoft Metashape and WebODM.
+</p>
+
+  </div>
+
+</div>
+
+    <!-- CARD 3 -->
+    <div class="overflow-hidden rounded-xl border border-slate-200 bg-white">
+
+  <div class="carousel relative">
+
+    <div class="track flex transition-transform duration-500">
+
+      <img src="images/kp4.png"
+           class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+	  <img src="images/kp7.png"
+           class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+	  <img src="images/kp17.png"
+           class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+		   
+	  <img src="images/kp16.png"
+           class="preview-image min-w-full h-44 object-cover cursor-zoom-in">
+
+    </div>
+
+  </div>
+
+  <div class="p-4">
+
+    <h5 class="font-semibold">
+      KAPB Toll Road Land Acquisition Status WebGIS 
+    </h5>
+
+    <p class="mt-1 text-xs text-slate-500">
+      Development and updating of a WebGIS platform for monitoring land acquisition progress, spatial data management, and thematic map visualization using QGIS and MapStore.
+    </p>
+
+  </div>
+
+</div>
+
+  </div>
+
+</div>
+
+        <!-- CONTENT -->
+        <div class="p-6 lg:col-span-7">
+
+          <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+            <span>PROJECT / 05</span>
+            <span class="text-accent-dark">· ROLE · WebGIS Development & Data Analyst</span>
+          </div>
+
+          <h4 class="mb-3 text-2xl font-bold text-slate-950">
+            GIS and Photogrammetry for Infrastructure Project Monitoring and Analysis (Case Study: PT Waskita Karya)
+          </h4>
+
+          <p class="mb-6 text-sm text-slate-600">
+            DEM & Orthophoto processing, WebGIS and dashboard development for monitoring tender projects, prepared document presentation for tender project. 
+          </p>
+
+          <div class="mb-5">
+            <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+              Workflow / Scope
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Data Preparation</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">DEM & Orthophoto Processing</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Accuracy Assessment</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">WebGIS Development</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Document Preparation</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">Tools</div>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Emlid Studio</span>
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Agisoft Metashape</span>
+				<span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Global Mapper</span>
+        <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Civil 3D</span>        
+        <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">QGIS</span>
+        <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">VSCode</span>
+        <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">GitHub</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+                Outputs
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+
+  <a
+    href="https://kiranapp.github.io/MonitoringTender2025/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px] hover:bg-accent/20">
+
+    WebGIS and Dashboard Tender Monitoring
+
+  </a>
+
+  <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">
+    Orthophoto & DEM
+  </span>
+
+  <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">
+    Document PPT Tender
+  </span>
+
+</div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+	  
+	  <!-- ========== PROJECT 06 ========== -->
+      <article class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+        <!-- SLIDER -->
+        <div class="lg:col-span-5 lg:order-2">
+          <div class="carousel overflow-hidden rounded-xl bg-slate-100">
+            <div class="track flex transition-transform duration-700 ease-in-out">
+              <img src="images/prgg1.jpg"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+
+<img src="images/prgg2.png"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+
+<img src="images/prgg3.png"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+
+<img src="images/2015cnn.png"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+
+<img src="images/2024cnn.png"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+
+<img src="images/2015obia.png"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+
+<img src="images/2024obia.png"
+     class="preview-image min-w-full h-full object-cover cursor-zoom-in">
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6 lg:col-span-7">
+
+          <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+            <span>PROJECT / 06</span>
+            <span class="text-accent-dark">· ROLE · Data Analyst</span>
+          </div>
+
+          <h4 class="mb-3 text-2xl font-bold text-slate-950">
+            Land Classification and Change Detection using Deep Learning & OBIA
+          </h4>
+
+          <p class="mb-6 text-sm text-slate-600">
+            Multi-class land cover mapping combining OBIA (eCognition) and CNN with accuracy comparison for change detection analysis.
+          </p>
+
+          <div class="mb-5">
+            <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+              Workflow / Scope
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Data Preparation</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">OBIA Segmentation</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">CNN Model</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Classification</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Accuracy Assessment</span>
+			  <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Change Detection Analysis & Comparison</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">Tools</div>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">eCognition</span>
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Google Colab</span>
+				<span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Google Earth Engine</span>
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">QGIS</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+                Outputs
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">Land Cover Map</span>
+                <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">Change Detection & Comparison Results</span>
+                <span class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px]">Final Project Report</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+	  
+	  <!-- ========== PROJECT 07 ========== -->
+      <article class="group grid gap-8 overflow-hidden rounded-2xl border border-slate-100 bg-white p-2 lg:grid-cols-12">
+
+<!-- PROJECT PREVIEW -->
+<!-- PROJECT SHOWCASE -->
+<div class="lg:col-span-5 lg:order-2">
+
+  <div class="grid gap-4 md:grid-cols-2">
+
+    <!-- CARD 1 : TERNAK -->
+    <a
+      href="https://kiranapp.github.io/TernakRanduacir2024/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="group block overflow-hidden rounded-xl border border-slate-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+      <div class="aspect-video overflow-hidden">
+        <img
+          src="images/kkn1.png"
+          class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+      </div>
+
+      <div class="p-4">
+
+        <span class="inline-flex rounded-full bg-emerald-50 px-2 py-1 text-[10px] font-medium text-emerald-700">
+          Live WebGIS
+        </span>
+
+        <h5 class="mt-2 font-semibold text-slate-900">
+          WebGIS Livestock Distribution Mapping
+        </h5>
+
+        <p class="mt-1 text-xs text-slate-500">
+          Interactive livestock distribution mapping in Randuacir, Salatiga City.
+        </p>
+
+        <span class="mt-3 inline-flex items-center text-sm font-medium text-accent-dark">
+          Open Website →
+        </span>
+
+      </div>
+
+    </a>
+
+    <!-- CARD 2 : EDUWISATA -->
+    <a
+      href="https://kiranapp.github.io/EduwisataRanduacir/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="group block overflow-hidden rounded-xl border border-slate-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+      <div class="aspect-video overflow-hidden">
+        <img
+          src="images/kkn2.png"
+          class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+      </div>
+
+      <div class="p-4">
+
+        <span class="inline-flex rounded-full bg-emerald-50 px-2 py-1 text-[10px] font-medium text-emerald-700">
+          Live WebGIS
+        </span>
+
+        <h5 class="mt-2 font-semibold text-slate-900">
+          WebGIS Edu-Tourism Destination Distribution Mapping
+        </h5>
+
+        <p class="mt-1 text-xs text-slate-500">
+          Education tourism destination mapping and visitor information system in Randuacir, Salatiga City.
+        </p>
+
+        <span class="mt-3 inline-flex items-center text-sm font-medium text-accent-dark">
+          Open Website →
+        </span>
+
+      </div>
+
+    </a>
+
+    <!-- CARD 3 : UMKM -->
+    <a
+      href="https://www.google.com/maps/d/u/0/edit?mid=1ZN7e6hRYwWH8IBvD3cLP8b0kN_i5Z8c&usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="group block overflow-hidden rounded-xl border border-slate-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl md:col-span-2">
+
+      <div class="aspect-video overflow-hidden">
+        <img
+          src="images/kkn3.png"
+          class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+      </div>
+
+      <div class="p-4">
+
+        <span class="inline-flex rounded-full bg-blue-50 px-2 py-1 text-[10px] font-medium text-blue-700">
+          Google Maps
+        </span>
+
+        <h5 class="mt-2 font-semibold text-slate-900">
+          Google Maps Mapping UMKM Randuacir 2024
+        </h5>
+
+        <p class="mt-1 text-xs text-slate-500">
+          MSME location mapping and business inventory database in Randuacir, Salatiga City.
+        </p>
+
+        <span class="mt-3 inline-flex items-center text-sm font-medium text-accent-dark">
+          Open Website →
+        </span>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</div>
+
+        <!-- CONTENT -->
+        <div class="p-6 lg:col-span-7">
+
+          <div class="mb-3 flex items-center gap-3 font-mono text-xs text-slate-400">
+            <span>PROJECT / 07</span>
+            <span class="text-accent-dark">· ROLE · WebGIS Development and Spatial Analyst</span>
+          </div>
+
+          <h4 class="mb-3 text-2xl font-bold text-slate-950">
+            WebGIS Development for Spatial Distribution Mapping of Livestock, Edu-Tourism, and MSMEs in Randuacir, Salatiga
+          </h4>
+
+          <p class="mb-6 text-sm text-slate-600">
+            KKN Project
+          </p>
+
+          <div class="mb-5">
+            <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">
+              Workflow / Scope
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">Livestock, Edu-Tourism, MSME Survey</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">GIS Integration & Analysis</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">WebGIS Development</span>
+              <span class="rounded-lg bg-slate-50 px-3 py-1 text-xs">User Training & Stakeholder Socialization</span>              
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-slate-400 uppercase">Tools</div>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">QGIS</span>
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Google Maps</span>
+				<span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">VSCode</span>
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">Canva</span>
+                <span class="rounded border border-slate-300 px-2 py-0.5 text-[10px]">GitHub</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="mb-2 font-mono text-[10px] tracking-widest text-accent-dark uppercase">
+                Outputs
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+  <a
+    href="https://bit.ly/TernakRanduacir2024"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px] hover:bg-accent/20"
+  >
+    Booklet & WebGIS Persebaran Ternak Randuacir 2024
+  </a>
+
+  <a
+    href="https://bit.ly/EduwisataRanduacir2024"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px] hover:bg-accent/20"
+  >
+    Booklet & WebGIS Persebaran Eduwisata Randuacir 2024
+  </a>
+
+  <a
+    href="https://www.google.com/maps/d/u/0/edit?mid=1ZN7e6hRYwWH8IBvD3cLP8b0kN_i5Z8c&usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="rounded border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px] hover:bg-accent/20 break-all"
+  >
+    Poster & Google Maps UMKM Randuacir 2024
+  </a>
+</div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<!-- ============ MANUAL SLIDER SCRIPT (ALL CAROUSELS) ============ -->
+<script>
+document.querySelectorAll(".carousel").forEach((carousel, carouselIndex) => {
+
+  const track = carousel.querySelector(".track");
+  const slides = track.children;
+  let currentIndex = 0;
+
+  // wrapper navigation
+  const wrapper = document.createElement("div");
+  wrapper.className = "relative";
+
+  carousel.parentNode.insertBefore(wrapper, carousel);
+  wrapper.appendChild(carousel);
+
+  // prev button
+  const prevBtn = document.createElement("button");
+  prevBtn.innerHTML = "❮";
+  prevBtn.className =
+    "absolute left-2 top-1/2 -translate-y-1/2 z-10 rounded-full bg-white/90 px-3 py-2 shadow hover:bg-white";
+
+  // next button
+  const nextBtn = document.createElement("button");
+  nextBtn.innerHTML = "❯";
+  nextBtn.className =
+    "absolute right-2 top-1/2 -translate-y-1/2 z-10 rounded-full bg-white/90 px-3 py-2 shadow hover:bg-white";
+
+  wrapper.appendChild(prevBtn);
+  wrapper.appendChild(nextBtn);
+
+  // dots
+  const dotsContainer = document.createElement("div");
+  dotsContainer.className =
+    "absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-2";
+
+  wrapper.appendChild(dotsContainer);
+
+  const dots = [];
+
+  for (let i = 0; i < slides.length; i++) {
+    const dot = document.createElement("button");
+
+    dot.className =
+      "h-2 w-2 rounded-full bg-white/60 transition";
+
+    dot.addEventListener("click", () => {
+      currentIndex = i;
+      updateSlider();
+    });
+
+    dots.push(dot);
+    dotsContainer.appendChild(dot);
+  }
+
+  function updateSlider() {
+
+    track.style.transform =
+      `translateX(-${currentIndex * 100}%)`;
+
+    dots.forEach((dot, index) => {
+
+      if(index === currentIndex){
+        dot.classList.remove("bg-white/60");
+        dot.classList.add("bg-white");
+      } else {
+        dot.classList.remove("bg-white");
+        dot.classList.add("bg-white/60");
+      }
+
+    });
+
+  }
+
+  prevBtn.addEventListener("click", () => {
+
+    currentIndex =
+      (currentIndex - 1 + slides.length) %
+      slides.length;
+
+    updateSlider();
+
+  });
+
+  nextBtn.addEventListener("click", () => {
+
+    currentIndex =
+      (currentIndex + 1) %
+      slides.length;
+
+    updateSlider();
+
+  });
+
+  updateSlider();
+
+});
+
+
+// =====================
+// WEBGIS PREVIEW MODAL
+// =====================
+
+function openPreview(url) {
+
+  let modal =
+    document.getElementById("webgisPreviewModal");
+
+  if (!modal) {
+
+    modal = document.createElement("div");
+
+    modal.id = "webgisPreviewModal";
+
+    modal.className =
+      "fixed inset-0 z-[9999] hidden bg-black/70 backdrop-blur-sm";
+
+    modal.innerHTML = `
+      <div class="mx-auto mt-4 h-[92vh] w-[95vw] overflow-hidden rounded-2xl bg-white shadow-2xl">
+        <div class="flex items-center justify-between border-b p-4">
+          <h3 class="font-semibold text-slate-800">
+            WebGIS Preview
+          </h3>
+
+          <button
+            onclick="closePreview()"
+            class="rounded-lg px-3 py-1 hover:bg-slate-100">
+            ✕
+          </button>
+        </div>
+
+        <iframe
+          id="previewFrame"
+          class="h-[calc(92vh-70px)] w-full">
+        </iframe>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+  }
+
+  document
+    .getElementById("previewFrame")
+    .src = url;
+
+  modal.classList.remove("hidden");
+}
+
+function closePreview() {
+
+  const modal =
+    document.getElementById("webgisPreviewModal");
+
+  document
+    .getElementById("previewFrame")
+    .src = "";
+
+  modal.classList.add("hidden");
+}
+</script>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  // =====================================================
+  // PROJECT 2 : MODEL SWITCHER
+  // =====================================================
+
+  window.changeModel = function(path, area, infoText){
+
+  const viewer = document.getElementById("viewer-main");
+
+  if(!viewer) return;
+
+  viewer.src = "";
+
+  setTimeout(() => {
+
+    viewer.src = path;
+
+    const info =
+      document.getElementById("model-info");
+
+    if(info){
+      info.textContent = infoText;
+    }
+
+  },100);
+
+};
+
+
+  // =====================================================
+  // FULLSCREEN ALL VIEWERS
+  // =====================================================
+
+  window.openFullscreen = function(viewerId){
+
+    const viewer =
+      document.getElementById(viewerId);
+
+    if(!viewer) return;
+
+    if(viewer.requestFullscreen){
+      viewer.requestFullscreen();
+    }
+    else if(viewer.webkitRequestFullscreen){
+      viewer.webkitRequestFullscreen();
+    }
+    else if(viewer.msRequestFullscreen){
+      viewer.msRequestFullscreen();
+    }
+
+  };
+
+
+  // =====================================================
+  // PAUSE / PLAY MODEL VIEWER WHEN VISIBLE
+  // =====================================================
+
+  const viewers = [
+
+    document.getElementById("viewer-project1"),
+    document.getElementById("viewer-main"),
+    document.getElementById("viewer-project3")
+
+  ].filter(Boolean);
+
+  const observer = new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
+
+      const viewer = entry.target;
+
+      try{
+
+        if(entry.isIntersecting){
+
+          if(viewer.play){
+            viewer.play();
+          }
+
+        }else{
+
+          if(viewer.pause){
+            viewer.pause();
+          }
+
+        }
+
+      }catch(err){}
+
+    });
+
+  },{
+    threshold:0.2
+  });
+
+  viewers.forEach(v=>observer.observe(v));
+
+
+  // =====================================================
+  // IMAGE PREVIEW MODAL
+  // =====================================================
+
+  const modal = document.createElement("div");
+
+  modal.id = "imagePreviewModal";
+
+  modal.className =
+    "fixed inset-0 z-[9999] hidden items-center justify-center bg-black/70 backdrop-blur-sm";
+
+  modal.innerHTML = `
+    <div class="relative w-[85vw] max-w-5xl">
+
+      <button
+        id="closeImagePreview"
+        class="absolute -top-3 -right-3 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-lg">
+
+        ✕
+
+      </button>
+
+      <img
+        id="previewImage"
+        class="max-h-[85vh] w-full rounded-2xl bg-white p-2 object-contain">
+
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+
+  const previewImage =
+    document.getElementById("previewImage");
+
+  document
+    .querySelectorAll(".preview-image")
+    .forEach(img=>{
+
+      img.addEventListener("click",()=>{
+
+        previewImage.src = img.src;
+
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+
+      });
+
+    });
+
+  document
+    .getElementById("closeImagePreview")
+    .addEventListener("click",()=>{
+
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+
+    });
+
+  modal.addEventListener("click",(e)=>{
+
+    if(e.target === modal){
+
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+
+    }
+
+  });
+
+
+  // =====================================================
+  // ALL CAROUSELS
+  // =====================================================
+
+  document
+    .querySelectorAll(".carousel")
+    .forEach((carousel)=>{
+
+      const track =
+        carousel.querySelector(".track");
+
+      if(!track) return;
+
+      const slides = track.children;
+
+      let currentIndex = 0;
+
+      const wrapper =
+        document.createElement("div");
+
+      wrapper.className = "relative";
+
+      carousel.parentNode.insertBefore(
+        wrapper,
+        carousel
+      );
+
+      wrapper.appendChild(carousel);
+
+      const prevBtn =
+        document.createElement("button");
+
+      prevBtn.innerHTML = "❮";
+
+      prevBtn.className =
+        "absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/90 px-3 py-2 shadow hover:bg-white";
+
+      const nextBtn =
+        document.createElement("button");
+
+      nextBtn.innerHTML = "❯";
+
+      nextBtn.className =
+        "absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/90 px-3 py-2 shadow hover:bg-white";
+
+      wrapper.appendChild(prevBtn);
+      wrapper.appendChild(nextBtn);
+
+      const dotsContainer =
+        document.createElement("div");
+
+      dotsContainer.className =
+        "absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-2";
+
+      wrapper.appendChild(dotsContainer);
+
+      const dots = [];
+
+      for(let i=0;i<slides.length;i++){
+
+        const dot =
+          document.createElement("button");
+
+        dot.className =
+          "h-2 w-2 rounded-full bg-white/60";
+
+        dot.addEventListener("click",()=>{
+
+          currentIndex = i;
+          updateSlider();
+
+        });
+
+        dots.push(dot);
+
+        dotsContainer.appendChild(dot);
+
+      }
+
+      function updateSlider(){
+
+        track.style.transform =
+          `translateX(-${currentIndex*100}%)`;
+
+        dots.forEach((dot,index)=>{
+
+          if(index===currentIndex){
+
+            dot.classList.remove("bg-white/60");
+            dot.classList.add("bg-white");
+
+          }else{
+
+            dot.classList.remove("bg-white");
+            dot.classList.add("bg-white/60");
+
+          }
+
+        });
+
+      }
+
+      prevBtn.addEventListener("click",()=>{
+
+        currentIndex =
+          (currentIndex-1+slides.length)
+          % slides.length;
+
+        updateSlider();
+
+      });
+
+      nextBtn.addEventListener("click",()=>{
+
+        currentIndex =
+          (currentIndex+1)
+          % slides.length;
+
+        updateSlider();
+
+      });
+
+      updateSlider();
+
+    });
+
+});
+
+</script>
+
+<!-- ============ RESEARCH ============ -->
+<section id="research" class="bg-slate-50 py-24">
+  <div class="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-12">
+    <div class="lg:col-span-5">
+      <h2 class="mb-4 font-mono text-sm tracking-widest text-accent-dark uppercase">05 / Research</h2>
+      <h3 class="mb-6 text-3xl font-extrabold tracking-tight text-slate-950">Spatial intelligence for environment and infrastructure.</h3>
+      <div class="flex flex-wrap gap-2"><span class="rounded-full border border-slate-300 bg-white px-3 py-1 font-mono text-xs text-slate-700">Geospatial AI</span><span class="rounded-full border border-slate-300 bg-white px-3 py-1 font-mono text-xs text-slate-700">Remote Sensing</span><span class="rounded-full border border-slate-300 bg-white px-3 py-1 font-mono text-xs text-slate-700">Machine Learning</span><span class="rounded-full border border-slate-300 bg-white px-3 py-1 font-mono text-xs text-slate-700">Environmental Monitoring</span><span class="rounded-full border border-slate-300 bg-white px-3 py-1 font-mono text-xs text-slate-700">Early Warning System</span></div>
+    </div>
+    <div class="lg:col-span-7">
+      <div class="rounded-2xl border border-accent/30 bg-white p-8 shadow-sm">
+        <div class="mb-2 font-mono text-xs tracking-widest text-accent-dark uppercase">Current Research</div>
+        <h4 class="mb-4 text-2xl font-bold text-slate-950">AI-Based Coconut Plantation Monitoring System</h4>
+        <p class="mb-6 text-sm leading-relaxed text-slate-600">BPDP research proposal combining high-resolution remote sensing and machine learning detection to automate palm inventory, growth tracking, and environmental risk alerts for plantation operators.</p>
+        <div class="grid grid-cols-2 gap-6 border-t border-slate-100 pt-6">
+          <div><div class="mb-1 font-mono text-[10px] tracking-widest text-slate-400 uppercase">Status</div><div class="font-medium text-slate-800">Research Proposal</div></div>
+          <div><div class="mb-1 font-mono text-[10px] tracking-widest text-slate-400 uppercase">Research Area</div><div class="font-medium text-slate-800">Coconut Plantation Landscape</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEACHING ============ -->
+<section id="teaching" class="border-t border-slate-100 py-24">
+  <div class="mx-auto max-w-5xl px-6">
+    <h2 class="mb-4 font-mono text-sm tracking-widest text-accent-dark uppercase">06 / Teaching Experience</h2>
+    <h3 class="mb-10 text-3xl font-extrabold tracking-tight text-slate-950">9 Teaching Assistant Positions at UGM Geodetic Engineering</h3>
+    <div class="overflow-hidden rounded-2xl border border-slate-200">
+      <table class="w-full text-left text-sm">
+        <thead class="bg-slate-50 font-mono text-[11px] tracking-widest text-slate-500 uppercase">
+          <tr><th class="px-6 py-3">#</th><th class="px-6 py-3">Course</th><th class="px-6 py-3 text-right">Year</th></tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100"><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">01</td><td class="px-6 py-4 font-medium text-slate-800">Remote Sensing Image Analysis</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2025</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">02</td><td class="px-6 py-4 font-medium text-slate-800">Remote Sensing</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2025</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">03</td><td class="px-6 py-4 font-medium text-slate-800">Digital Photogrammetry Systems</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2024</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">04</td><td class="px-6 py-4 font-medium text-slate-800">Physical Geodesy</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2024</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">05</td><td class="px-6 py-4 font-medium text-slate-800">Database Systems</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2024</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">06</td><td class="px-6 py-4 font-medium text-slate-800">Map Projection</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2024</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">07</td><td class="px-6 py-4 font-medium text-slate-800">Differential Geometry</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2023</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">08</td><td class="px-6 py-4 font-medium text-slate-800">Basic Statistics</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2023</td></tr><tr class="bg-white hover:bg-slate-50"><td class="px-6 py-4 font-mono text-xs text-slate-400">09</td><td class="px-6 py-4 font-medium text-slate-800">Least Square Adjustment</td><td class="px-6 py-4 text-right font-mono text-accent-dark">2023</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section id="achievements" class="bg-slate-50 py-24">
+  <div class="mx-auto max-w-7xl px-6">
+
+    <h2 class="mb-4 font-mono text-sm tracking-widest text-accent-dark uppercase">
+      07 / Achievements & Certifications
+    </h2>
+
+    <h3 class="mb-12 text-4xl font-extrabold tracking-tight text-slate-950">
+      Awards, Training & Education
+    </h3>
+
+    <!-- ACHIEVEMENTS -->
+    <div class="mb-10 grid gap-6 md:grid-cols-3">
+
+      <!-- TRAINING -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
+        <div class="mb-3 flex items-center justify-between font-mono text-[10px] tracking-widest uppercase">
+          <span class="text-accent-dark">Training</span>
+          <span class="text-slate-400">2026</span>
+        </div>
+
+        <h4 class="text-lg font-bold text-slate-950">
+          Automatic Building Detection with YOLO
+        </h4>
+      </div>
+
+      <!-- AWARD -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
+        <div class="mb-3 flex items-center justify-between font-mono text-[10px] tracking-widest uppercase">
+          <span class="text-accent-dark">Award</span>
+          <span class="text-slate-400">2024</span>
+        </div>
+
+        <h4 class="text-lg font-bold text-slate-950">
+          Best Presentation — LKTIN LOGIN 2024
+        </h4>
+      </div>
+
+      <!-- LANGUAGES -->
+      <div class="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
+        <div class="mb-3 flex items-center justify-between font-mono text-[10px] tracking-widest uppercase">
+          <span class="text-accent-dark">Languages</span>
+          <span class="text-slate-400">TOEFL ITP 563</span>
+        </div>
+
+        <h4 class="mb-4 text-lg font-bold text-slate-950">
+          Language Proficiency
+        </h4>
+
+        <div class="flex flex-wrap gap-2">
+
+          <span class="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700">
+            Bahasa Indonesia · Native
+          </span>
+
+          <span class="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700">
+            English · Proficient
+          </span>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="grid gap-6 md:grid-cols-2">
+
+      <div class="rounded-2xl border border-slate-100 bg-white p-8">
+        <div class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          Education
+        </div>
+
+        <h4 class="mb-1 text-xl font-bold text-slate-950">
+          Universitas Gadjah Mada
+        </h4>
+
+        <p class="text-sm text-slate-600">
+          Bachelor of Geodetic Engineering · GPA 3.85 / 4.00
+        </p>
+      </div>
+
+      <div class="rounded-2xl border border-slate-100 bg-white p-8">
+        <div class="mb-3 font-mono text-xs tracking-widest text-accent-dark uppercase">
+          Continuous Learning
+        </div>
+
+        <h4 class="mb-3 text-xl font-bold text-slate-950">
+          Webinars · Workshops · Bootcamps
+        </h4>
+
+        <p class="text-sm leading-relaxed text-slate-600">
+          Continuous learning in geospatial technology, WebGIS development,
+  photogrammetry, remote sensing, machine learning, AI for geospatial
+  applications, survey and mapping, mining technology, digital twin
+  systems, and technology-driven business development through webinars,
+  workshops, bootcamps, and professional training programs.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<footer id="contact" class="border-t border-slate-100 bg-slate-950 py-24 text-slate-50">
+  <div class="mx-auto max-w-7xl px-6">
+    <h2 class="mb-4 font-mono text-sm tracking-widest text-accent uppercase">09 / Contact</h2>
+    <h3 class="mb-12 max-w-3xl text-5xl font-extrabold tracking-tight">Let's map the future together.</h3>
+    <div class="mb-16 grid gap-6 md:grid-cols-4"><a href="mailto:kirana.pirandika.ayuputri@mail.ugm.ac.id" target="_blank" rel="noreferrer" class="group block rounded-2xl border border-slate-800 bg-slate-900/50 p-6 transition-all hover:border-accent"><div class="mb-2 font-mono text-[10px] tracking-widest text-accent uppercase">Email</div><div class="truncate text-sm font-medium text-slate-200 group-hover:text-accent">kirana.pirandika.ayuputri@mail.ugm.ac.id</div></a><a href="https://www.linkedin.com/in/kirana-pirandika-ayuputri-151841216/" target="_blank" rel="noreferrer" class="group block rounded-2xl border border-slate-800 bg-slate-900/50 p-6 transition-all hover:border-accent"><div class="mb-2 font-mono text-[10px] tracking-widest text-accent uppercase">LinkedIn</div><div class="truncate text-sm font-medium text-slate-200 group-hover:text-accent">kirana-pirandika-ayuputri</div></a><a href="https://github.com/" target="_blank" rel="noreferrer" class="group block rounded-2xl border border-slate-800 bg-slate-900/50 p-6 transition-all hover:border-accent"><div class="mb-2 font-mono text-[10px] tracking-widest text-accent uppercase">GitHub</div><div class="truncate text-sm font-medium text-slate-200 group-hover:text-accent">github.com</div></a><a href="https://wa.me/6289651921929" target="_blank" rel="noreferrer" class="group block rounded-2xl border border-slate-800 bg-slate-900/50 p-6 transition-all hover:border-accent"><div class="mb-2 font-mono text-[10px] tracking-widest text-accent uppercase">WhatsApp</div><div class="truncate text-sm font-medium text-slate-200 group-hover:text-accent">+62 896-5192-1929</div></a></div>
+    <div class="flex flex-col items-start justify-between gap-6 border-t border-slate-800 pt-10 md:flex-row md:items-center">
+      <div>
+        <div class="font-mono text-lg font-bold tracking-tighter">Kirana Pirandika Ayuputri<span class="text-accent"> Portofolio</span></div>
+        <div class="mt-1 font-mono text-[11px] text-slate-500">© 2025 KIRANA PIRANDIKA AYUPUTRI · SLEMAN, ID</div>
+      </div>
+      <div class="flex gap-3">
+        <a href="Kirana-Pirandika-Ayuputri-CV.pdf" download class="rounded-full bg-accent px-5 py-2 text-xs font-bold text-slate-950 hover:bg-white">Download CV</a>
+        <a href="mailto:kirana.pirandika.ayuputri@mail.ugm.ac.id" class="rounded-full border border-slate-700 px-5 py-2 text-xs font-bold text-slate-200 hover:border-accent hover:text-accent">Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('menuBtn').addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.toggle('hidden');
+  });
+</script>
+</body>
+</html>
